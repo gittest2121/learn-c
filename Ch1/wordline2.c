@@ -1,4 +1,5 @@
-/* Write a program that prints its input one word per line */
+/* Write a program that prints its input one word per line
+ * OUTDATED PROGRAM */
 #include <stdio.h>
 #define IN 1
 #define OUT 0
