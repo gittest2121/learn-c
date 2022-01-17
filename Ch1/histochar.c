@@ -7,9 +7,9 @@ int main(void) {
 		chars[i] = 0;
 	
 	while((c=getchar()) != EOF)
-		chars[c] = chars[c] + 1;
+		++chars[c];
 	
-	for(i=0; i<TOTAL_CHARS; ++i) {
+	for(i=0; i < TOTAL_CHARS; ++i) {
 		putchar(i);
 		putchar(' ');		
 		for(j=0; j < chars[i]; ++j)
