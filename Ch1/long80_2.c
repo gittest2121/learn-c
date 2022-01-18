@@ -13,7 +13,6 @@ int main(void) {
 	int len;
 	char line[MAX];
 
-	/* copy when length is more than 80 characters */
 	while ((len = get_line(line, MAX)) > 0)
 		if (len > MIN) {
 			printf("\nLine with more than 80 characters: \n");
